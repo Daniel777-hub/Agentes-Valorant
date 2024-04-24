@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('/font/druk-medium.otf');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('/font/druk-bold.otf');
+  font-weight: bold;
+  font-display: swap;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #1F2326;
+  --black-opacity: rgba(31, 35, 38, 0.75);
+  --red: #FF4656;
+  --silver: #C4C4C4;
+}
+
+body {
+  background: var(--red);
+
+  color: var(--black);
+  font: 400 1rem "Montserrat", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

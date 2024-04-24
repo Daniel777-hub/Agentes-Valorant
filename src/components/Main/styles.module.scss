@@ -1,0 +1,40 @@
+.container {
+display: flex;
+align-items: center;
+
+  width: 100%;
+  max-width: 1366px;
+  padding-bottom: 40px;
+
+  margin: 0 auto;
+
+  .title {
+    position: relative;
+    margin-right: 24px;
+
+    img {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+
+    h1 {
+      font-family: 'Druk';
+      font-size: 70px;
+      letter-spacing: 12px;
+
+      color: transparent;
+      -webkit-text-stroke: 2px var(--white);
+
+      writing-mode: vertical-lr;
+    }
+  }
+}
+
+.agents {
+  flex: 1;
+
+  display: flex;
+  column-gap: 16px;
+}
+
