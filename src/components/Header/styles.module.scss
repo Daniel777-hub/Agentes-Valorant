@@ -54,13 +54,14 @@
     img {
       object-fit: cover;
     }
+  }
 
-    strong {
-      font-size: 12px;
-    }
+  strong {
+    font-size: 12px;
+  }
 
-    svg {
-      transform: rotate(180deg);
-    }
+  svg {
+    transform: rotate(180deg);
   }
 }
+
