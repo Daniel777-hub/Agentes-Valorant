@@ -3,7 +3,7 @@ import type { Agent } from 'types/agent';
 
 import styles from './styles.module.scss';
 
-export const CardAgent = (agent: AgentProps) => {
+export const CardAgent = (agent: Agent) => {
   const renderAbilities = agent.abilities.map(ability => {
     if (ability.displayIcon) {
       return (
